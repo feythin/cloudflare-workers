@@ -1,3 +1,5 @@
+name = "r2test"
+main = "upload-download-file.js"
 [[r2_buckets]]
 binding = 'MY_BUCKET' # <~ valid JavaScript variable name
 bucket_name = 'test-video'
