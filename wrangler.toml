@@ -1,6 +1,10 @@
 name = "r2test"
 main = "upload-download-file.js"
 compatibility_date = "2025-02-25"
+workers_dev = false
 [[r2_buckets]]
 binding = 'MY_BUCKET' # <~ valid JavaScript variable name
 bucket_name = 'test-video'
+routes = [
+  { pattern = "r2.anxianzd.com/*", custom_domain = true }
+]
